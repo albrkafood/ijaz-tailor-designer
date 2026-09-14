@@ -95,7 +95,7 @@ export const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onCl
               >
                 <MapPin className="w-4 h-4 text-[#C5A059] mb-1" />
                 <span className="font-bold text-white block text-[11px] uppercase tracking-wider">Islamabad Atelier</span>
-                <span className="text-[10px] text-white/40">Beverly Centre, Blue Area / F-6</span>
+                <span className="text-[10px] text-white/40">Panther Plaza, F-8 Markaz</span>
               </button>
             </div>
 

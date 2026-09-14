@@ -96,9 +96,9 @@ export function formatPrice(amountUSD: number, _currency?: 'USD' | 'PKR' | 'GBP'
 }
 
 export function generateWhatsAppMessage(order: TailoringOrder): string {
-  const phone = '923005001992'; // Ijaz Tailors Islamabad official WhatsApp
+  const phone = '923005001992'; // Ijaz Designer Tailor Islamabad official WhatsApp
   const lines = [
-    `*NEW BESPOKE ORDER ENQUIRY — IJAZ TAILORS*`,
+    `*NEW BESPOKE ORDER ENQUIRY — IJAZ DESIGNER TAILOR*`,
     `--------------------------------------`,
     `*Order Reference:* ${order.id}`,
     `*Customer Name:* ${order.customer.name}`,
@@ -133,7 +133,7 @@ export function generateWhatsAppMessage(order: TailoringOrder): string {
   }
 
   lines.push(``);
-  lines.push(`_Sent via Ijaz Designer & Tailors Online Bespoke System (Islamabad)_`);
+  lines.push(`_Sent via Ijaz Designer Tailor Online Bespoke System (Islamabad)_`);
 
   const encoded = encodeURIComponent(lines.join('\n'));
   return `https://wa.me/${phone}?text=${encoded}`;

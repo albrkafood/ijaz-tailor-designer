@@ -8,6 +8,11 @@ import emeraldFarshiImg from '../assets/images/emerald_farshi_lehenga_1789191079
 import goldTissueGhararaImg from '../assets/images/gold_tissue_gharara_1789191097782.jpg';
 import pakistaniDesignerSuitImg from '../assets/images/pakistani_designer_suit_1789191113837.jpg';
 import banarasiShararaImg from '../assets/images/banarasi_sharara_1789191130820.jpg';
+import chiffonPartySuitImg from '../assets/images/chiffon_party_suit_1789359966118.jpg';
+import angrakhaPartySuitImg from '../assets/images/angrakha_party_suit_1789359979529.jpg';
+import organzaPartySuitImg from '../assets/images/organza_party_suit_1789359989144.jpg';
+import mirrorPartySuitImg from '../assets/images/mirror_party_suit_1789360001450.jpg';
+import velvetPartySuitImg from '../assets/images/velvet_party_suit_1789360011421.jpg';
 
 export const ATELIER_ASSETS = {
   coutureHero: coutureHeroImg,
@@ -19,6 +24,11 @@ export const ATELIER_ASSETS = {
   goldTissueGharara: goldTissueGhararaImg,
   pakistaniDesignerSuit: pakistaniDesignerSuitImg,
   banarasiSharara: banarasiShararaImg,
+  chiffonPartySuit: chiffonPartySuitImg,
+  angrakhaPartySuit: angrakhaPartySuitImg,
+  organzaPartySuit: organzaPartySuitImg,
+  mirrorPartySuit: mirrorPartySuitImg,
+  velvetPartySuit: velvetPartySuitImg,
 };
 
 export const MEN_SUBCATEGORIES: MenSubcategory[] = [];
@@ -275,6 +285,71 @@ export const GARMENTS: Garment[] = [
     tags: ['Peplum', 'Bell Bottoms', 'Party Pret'],
     estimatedDays: 10,
     fabricSuggestions: ['Organza', 'Raw Silk'],
+  },
+  {
+    id: 'w-party-3',
+    name: 'Pure Chiffon Hand-Embroidered 3-Piece Party Wear Suit',
+    category: 'women',
+    subcategory: 'Party Wear',
+    description: 'Festive pure crinkle chiffon shirt adorned with delicate tilla, sitara, and resham threadwork, paired with silk cigarette pants and an embroidered organza border dupatta.',
+    basePriceUSD: 240,
+    basePricePKR: 66720,
+    image: chiffonPartySuitImg,
+    tags: ['Chiffon Suit', 'Party Wear', 'Tilla Work', '3-Piece'],
+    estimatedDays: 8,
+    fabricSuggestions: ['Pure Crinkle Chiffon', 'Raw Silk', 'Organza'],
+  },
+  {
+    id: 'w-party-4',
+    name: 'Luxury Organza Embroidered Long Shirt & Silk Gharara Pants',
+    category: 'women',
+    subcategory: 'Party Wear',
+    description: 'Shimmering champagne organza long shirt with pearl embellishments on the neckline and daman, paired with flared pleated raw silk gharara pants and chiffon dupatta.',
+    basePriceUSD: 280,
+    basePricePKR: 77840,
+    image: organzaPartySuitImg,
+    tags: ['Organza Suit', 'Gharara Pants', 'Pearl Work', 'Party Wear'],
+    estimatedDays: 9,
+    fabricSuggestions: ['Embroidered Organza', 'Pure Raw Silk', 'Tissue Chiffon'],
+  },
+  {
+    id: 'w-party-5',
+    name: 'Raw Silk Angrakha Style Party Wear Suit with Crushed Sharara',
+    category: 'women',
+    subcategory: 'Party Wear',
+    description: 'Traditional crossover Angrakha silhouette in jewel-toned emerald raw silk, featuring handmade thread latkans, paired with crushed silk sharara and gold zari border dupatta.',
+    basePriceUSD: 320,
+    basePricePKR: 88960,
+    image: angrakhaPartySuitImg,
+    tags: ['Angrakha', 'Crushed Sharara', 'Raw Silk', 'Festive Party'],
+    estimatedDays: 10,
+    fabricSuggestions: ['Pure Raw Silk 80g', 'Crushed Silk', 'Gold Zari Chiffon'],
+  },
+  {
+    id: 'w-party-6',
+    name: 'Georgette Mirror-Work & Gotta Patti Festive Party Suit',
+    category: 'women',
+    subcategory: 'Party Wear',
+    description: 'Dazzling party ensemble with intricate gotta patti and real mirror-work highlights on georgette fabric, straight tailored trousers, and four-sided scalloped dupatta.',
+    basePriceUSD: 260,
+    basePricePKR: 72280,
+    image: mirrorPartySuitImg,
+    tags: ['Gotta Patti', 'Mirror Work', 'Georgette', 'Party Wear'],
+    estimatedDays: 8,
+    fabricSuggestions: ['Pure Georgette', 'Viscose Silk', 'Chiffon Dupatta'],
+  },
+  {
+    id: 'w-party-7',
+    name: 'Hand-Embellished Velvet & Brocade 3-Piece Party Wear Suit',
+    category: 'women',
+    subcategory: 'Party Wear',
+    description: 'Opulent winter evening party suit crafted in midnight plum micro-velvet with intricate kora dabka handwork on sleeves, paired with banarasi brocade cigarette trousers and chiffon dupatta.',
+    basePriceUSD: 350,
+    basePricePKR: 97300,
+    image: velvetPartySuitImg,
+    tags: ['Velvet Party Suit', 'Brocade Pants', 'Dabka Work', 'Winter Party'],
+    estimatedDays: 10,
+    fabricSuggestions: ['Micro-Velvet 9000', 'Banarasi Brocade', 'Chiffon'],
   },
 
   // SHALWAR KAMEEZ
@@ -614,13 +689,13 @@ export const INITIAL_ORDERS: TailoringOrder[] = [
     currency: 'USD',
     paymentMethod: 'cash_store',
     status: 'confirmed',
-    adminNotes: 'Customer unstitched Maria B boxes received and cataloged at F-6 atelier.',
+    adminNotes: 'Customer unstitched Maria B boxes received and cataloged at F-8 Markaz atelier.',
     stages: [
       { id: '1', name: 'Order Received', label: 'Order Received', description: 'Order registered and fabric received', completed: true, current: false, timestamp: 'Sept 02, 2026' },
       { id: '2', name: 'Design Confirmed', label: 'Design Confirmed', description: 'Neckline cutwork approved with client', completed: true, current: true, timestamp: 'Sept 03, 2026' },
       { id: '3', name: 'Fabric Selected', label: 'Fabric Selected', description: 'Lawn and organza patches steam-ironed', completed: false, current: false },
       { id: '4', name: 'Cutting & Stitching', label: 'Cutting & Stitching', description: 'Master cutting in progress', completed: false, current: false },
-      { id: '5', name: 'Fitting', label: 'Fitting', description: 'In-atelier fitting in F-6', completed: false, current: false },
+      { id: '5', name: 'Fitting', label: 'Fitting', description: 'In-atelier fitting at F-8 Markaz', completed: false, current: false },
       { id: '6', name: 'Final Finishing', label: 'Final Finishing', description: 'Cutwork finishing & steam press', completed: false, current: false },
       { id: '7', name: 'Ready / Shipped', label: 'Ready / Shipped', description: 'Hand delivery in Islamabad', completed: false, current: false },
       { id: '8', name: 'Completed', label: 'Completed', description: 'Delivered', completed: false, current: false },

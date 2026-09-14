@@ -45,8 +45,16 @@ export const ContactView: React.FC<ContactViewProps> = ({ onBookAppointment }) =
             <div className="flex items-start gap-3 text-xs text-[#a3abbd]">
               <MapPin className="w-5 h-5 text-[#c5a880] shrink-0 mt-0.5" />
               <div>
-                <strong className="text-[#f0ebe2] block text-sm">Ijaz Designer & Tailors</strong>
-                <span>Shop # 14-16, Beverly Centre, Jinnah Avenue, Blue Area / F-6, Islamabad, 44000, Pakistan</span>
+                <strong className="text-[#f0ebe2] block text-sm">Ijaz Designer Tailor</strong>
+                <span>Shop # 7, Basement Panther Plaza, Near Meezan Bank, F-8 Markaz, Islamabad, Pakistan</span>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Panther+Plaza+F-8+Markaz+Islamabad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block mt-1 text-[11px] text-[#c5a880] hover:underline font-medium"
+                >
+                  View on Google Maps →
+                </a>
               </div>
             </div>
 

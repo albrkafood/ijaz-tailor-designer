@@ -79,14 +79,15 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Featured garments for homepage (exclusive women's couture)
-  const displayedFeatured = GARMENTS.filter((g) => g.category === 'women').slice(0, 8);
+  // Featured garments for homepage (curated couture including bridal, festive party wear & designer stitching)
+  const featuredIds = ['w-bridal-1', 'w-bridal-2', 'w-party-3', 'w-party-5', 'w-party-7', 'w-wedding-1', 'w-dress-1', 'w-3piece-1'];
+  const displayedFeatured = GARMENTS.filter((g) => featuredIds.includes(g.id));
 
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white font-sans antialiased selection:bg-[#C5A059] selection:text-black">
       {/* Top Luxury Announcement Bar */}
       <div className="bg-[#080808] border-b border-white/5 py-1.5 px-4 text-center text-[9px] sm:text-[10px] uppercase tracking-[0.18em] sm:tracking-[0.25em] text-white/60 flex items-center justify-center gap-2.5 sm:gap-3">
-        <span className="text-[#C5A059] font-medium">Islamabad Atelier</span>
+        <span className="text-[#C5A059] font-medium">Islamabad Designer Tailor</span>
         <span className="text-white/20">•</span>
         <span>Worldwide Express</span>
         <span className="text-white/20">•</span>
@@ -137,7 +138,7 @@ export default function App() {
                   <div className="lg:col-span-7 space-y-6 text-left">
                     <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-sm bg-[#141414]/90 border border-white/15 text-[10px] font-bold uppercase tracking-[0.25em] text-[#C5A059] shadow-md backdrop-blur">
                       <Scissors className="w-3.5 h-3.5 text-[#C5A059]" />
-                      <span>MASTER ATELIER • BLUE AREA, ISLAMABAD</span>
+                      <span>IJAZ DESIGNER TAILOR • F-8 MARKAZ, ISLAMABAD</span>
                     </div>
 
                     <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif tracking-tight uppercase font-bold text-white leading-[1.1]">
@@ -642,7 +643,7 @@ export default function App() {
       {/* WhatsApp Floating Concierge Button */}
       <aside aria-label="WhatsApp Concierge" className="fixed bottom-6 right-6 z-40">
         <a
-          href="https://wa.me/923005001992?text=Hello%20Ijaz%20Designer%20%26%20Tailors%20Islamabad!%20I%20would%20like%20to%20inquire%20about%20bespoke%20tailoring."
+          href="https://wa.me/923005001992?text=Hello%20Ijaz%20Designer%20Tailor%20Islamabad!%20I%20would%20like%20to%20inquire%20about%20bespoke%20tailoring."
           target="_blank"
           rel="noopener noreferrer"
           className="group flex items-center gap-2.5 px-4 py-3 rounded-full bg-[#25d366] text-[#0b0c10] font-bold text-xs shadow-2xl hover:scale-105 active:scale-95 transition-all"

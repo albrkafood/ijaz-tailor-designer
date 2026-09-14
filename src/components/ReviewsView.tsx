@@ -21,7 +21,7 @@ export const ReviewsView: React.FC = () => {
       rating: 5,
       date: 'January 2025',
       review:
-        'Finding reliable Pakistani couture tailoring while living in the UK used to be stressful. Ijaz Tailors crafted my sister’s entire wedding trousseau and my bespoke reception gown. The zardozi work is genuine antique metallic tilla, not cheap machine glitter. Dispatched via DHL right to London without a single wrinkle!',
+        'Finding reliable Pakistani couture tailoring while living in the UK used to be stressful. Ijaz Designer Tailor crafted my sister’s entire wedding trousseau and my bespoke reception gown. The zardozi work is genuine antique metallic tilla, not cheap machine glitter. Dispatched via DHL right to London without a single wrinkle!',
     },
     {
       id: 3,
@@ -41,7 +41,7 @@ export const ReviewsView: React.FC = () => {
       rating: 5,
       date: 'February 2025',
       review:
-        'Our family has been loyal to Master Ijaz for over 18 years. For genuine Chinese 10-pound Boski, no one in the twin cities cuts a collar and cuff with this caliber of clean finish. The Beverly Centre atelier is always welcoming and professional.',
+        'Our family has been loyal to Master Ijaz for over 18 years. For bespoke women’s couture and designer stitching, no one in the twin cities cuts with this caliber of clean finish. The F-8 Markaz atelier is always welcoming and professional.',
     },
     {
       id: 5,
@@ -75,7 +75,7 @@ export const ReviewsView: React.FC = () => {
           Trusted by Discerning Clients Worldwide
         </h1>
         <p className="text-xs sm:text-sm text-[#959ca9] leading-relaxed">
-          Read candid reviews from diplomats, international executives, and bridal couples who trust Ijaz Designer & Tailors for bespoke perfection.
+          Read candid reviews from diplomats, international executives, and bridal couples who trust Ijaz Designer Tailor for bespoke perfection.
         </p>
       </div>
 

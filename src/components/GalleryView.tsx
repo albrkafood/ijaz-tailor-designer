@@ -9,13 +9,18 @@ import emeraldFarshiImg from '../assets/images/emerald_farshi_lehenga_1789191079
 import goldTissueGhararaImg from '../assets/images/gold_tissue_gharara_1789191097782.jpg';
 import pakistaniDesignerSuitImg from '../assets/images/pakistani_designer_suit_1789191113837.jpg';
 import banarasiShararaImg from '../assets/images/banarasi_sharara_1789191130820.jpg';
+import chiffonPartySuitImg from '../assets/images/chiffon_party_suit_1789359966118.jpg';
+import angrakhaPartySuitImg from '../assets/images/angrakha_party_suit_1789359979529.jpg';
+import organzaPartySuitImg from '../assets/images/organza_party_suit_1789359989144.jpg';
+import mirrorPartySuitImg from '../assets/images/mirror_party_suit_1789360001450.jpg';
+import velvetPartySuitImg from '../assets/images/velvet_party_suit_1789360011421.jpg';
 
 interface GalleryViewProps {
   onStartCustomOrder: () => void;
 }
 
 export const GalleryView: React.FC<GalleryViewProps> = ({ onStartCustomOrder }) => {
-  const [activeFilter, setActiveFilter] = useState<'all' | 'bridal' | 'dresses' | 'designer_stitching' | 'embroidery'>('all');
+  const [activeFilter, setActiveFilter] = useState<'all' | 'bridal' | 'dresses' | 'party_wear' | 'designer_stitching' | 'embroidery'>('all');
 
   const galleryItems = [
     {
@@ -52,6 +57,46 @@ export const GalleryView: React.FC<GalleryViewProps> = ({ onStartCustomOrder }) 
     },
     {
       id: 5,
+      title: 'Pure Chiffon Hand-Embroidered Festive Party Suit',
+      category: 'party_wear',
+      tag: 'Party Wear',
+      image: chiffonPartySuitImg,
+      desc: 'Festive pure crinkle chiffon 3-piece suit with delicate tilla embroidery, sequins, and pearl work for formal occasions.',
+    },
+    {
+      id: 6,
+      title: 'Raw Silk Angrakha Style Party Wear Sharara',
+      category: 'party_wear',
+      tag: 'Party Wear',
+      image: angrakhaPartySuitImg,
+      desc: 'Emerald raw silk crossover Angrakha embellished with gotta patti and paired with flared crushed silk sharara.',
+    },
+    {
+      id: 7,
+      title: 'Luxury Organza Shimmer Long Shirt & Gharara',
+      category: 'party_wear',
+      tag: 'Party Wear',
+      image: organzaPartySuitImg,
+      desc: 'Champagne gold shimmer organza party wear suit with resham threadwork, pearl beadings, and flared silk pants.',
+    },
+    {
+      id: 8,
+      title: 'Royal Sapphire Georgette Mirror-Work Party Suit',
+      category: 'party_wear',
+      tag: 'Party Wear',
+      image: mirrorPartySuitImg,
+      desc: 'Dazzling sapphire blue party suit featuring authentic mirror work, sitara sparkle, and gotta scalloped dupatta.',
+    },
+    {
+      id: 9,
+      title: 'Plum Italian Velvet & Brocade Winter Party Suit',
+      category: 'party_wear',
+      tag: 'Party Wear',
+      image: velvetPartySuitImg,
+      desc: 'Midnight plum micro-velvet shirt with kora dabka handwork on cuffs paired with gold banarasi brocade trousers.',
+    },
+    {
+      id: 10,
       title: 'Master Shears Pattern Drafting & Cutting',
       category: 'designer_stitching',
       tag: 'Master Cutter',
@@ -59,7 +104,7 @@ export const GalleryView: React.FC<GalleryViewProps> = ({ onStartCustomOrder }) 
       desc: 'Individual paper patterns and chalk markings tailored specifically for ladies silhouettes and designer fabric.',
     },
     {
-      id: 6,
+      id: 11,
       title: 'Heavily Embellished Net & Silk Gharara Set',
       category: 'bridal',
       tag: 'Nikah Gharara',
@@ -67,7 +112,7 @@ export const GalleryView: React.FC<GalleryViewProps> = ({ onStartCustomOrder }) 
       desc: 'Classic Lucknowi cut tiered gharara in gold tissue and French net with intricate tilla work and matching embellished veil.',
     },
     {
-      id: 7,
+      id: 12,
       title: 'Luxury Pret Finishing with Cutwork & Silk Piping',
       category: 'designer_stitching',
       tag: 'Designer Suit',
@@ -75,7 +120,7 @@ export const GalleryView: React.FC<GalleryViewProps> = ({ onStartCustomOrder }) 
       desc: 'Full bespoke stitching of Maria B, Sana Safinaz, and Elan luxury collections with authentic organza finishes.',
     },
     {
-      id: 8,
+      id: 13,
       title: 'Royal Banarasi Gold Brocade Sharara Ensemble',
       category: 'dresses',
       tag: 'Banarasi Sharara',
@@ -109,6 +154,7 @@ export const GalleryView: React.FC<GalleryViewProps> = ({ onStartCustomOrder }) 
         {[
           { key: 'all', label: 'All Creations' },
           { key: 'bridal', label: 'Bridal & Farshi Lehengas' },
+          { key: 'party_wear', label: 'Festive & Party Wear Suits' },
           { key: 'dresses', label: 'Peshwas & Royal Gowns' },
           { key: 'designer_stitching', label: 'Designer Suit Stitching' },
           { key: 'embroidery', label: 'Adda Zardozi Handwork' },

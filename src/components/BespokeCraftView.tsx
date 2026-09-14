@@ -50,7 +50,7 @@ export const BespokeCraftView: React.FC<BespokeCraftViewProps> = ({ onStartCusto
           The Art of Women's Bespoke Tailoring
         </h1>
         <p className="text-xs sm:text-sm text-white/60 leading-relaxed font-serif italic">
-          At Ijaz Designer & Tailors Islamabad, our studio is dedicated exclusively to the grace, proportions, and grandeur of women's bespoke fashion. From royal heirloom bridal trousseaux to runway-ready unstitched luxury designer suits, every stitch is executed by hand.
+          At Ijaz Designer Tailor Islamabad, our studio is dedicated exclusively to the grace, proportions, and grandeur of women's bespoke fashion. From royal heirloom bridal trousseaux to runway-ready unstitched luxury designer suits, every stitch is executed by hand.
         </p>
       </div>
 
@@ -67,7 +67,7 @@ export const BespokeCraftView: React.FC<BespokeCraftViewProps> = ({ onStartCusto
           </h2>
 
           <p>
-            Established in Beverly Centre, Blue Area, Islamabad, our atelier has dressed three generations of brides, dignitaries, and fashion connoisseurs. We specialize exclusively in ladies' traditional and contemporary couture—ensuring waist cinches, bustlines, sleeve flares, and lehenga lengths fall in immaculate harmony.
+            Located at Panther Plaza, F-8 Markaz, Islamabad, our atelier has dressed three generations of brides, dignitaries, and fashion connoisseurs. We specialize exclusively in ladies' traditional and contemporary couture—ensuring waist cinches, bustlines, sleeve flares, and lehenga lengths fall in immaculate harmony.
           </p>
 
           <p>
@@ -99,7 +99,7 @@ export const BespokeCraftView: React.FC<BespokeCraftViewProps> = ({ onStartCusto
               "A true women's couture creation does not simply fit the body; it flatters the poise, celebrates the silhouette, and carries heirloom dignity."
             </p>
             <span className="text-[10px] text-[#C5A059] uppercase tracking-wider block mt-1 font-bold">
-              — Master Ijaz, Islamabad Atelier
+              — Master Ijaz, Designer Tailor Islamabad
             </span>
           </div>
         </div>

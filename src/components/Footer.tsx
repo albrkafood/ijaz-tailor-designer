@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({
               </div>
               <div>
                 <span className="font-serif text-xl tracking-[0.2em] font-bold text-[#C5A059] block uppercase leading-none">
-                  IJAZ DESIGNER ATELIER
+                  IJAZ DESIGNER TAILOR
                 </span>
                 <span className="text-[9px] tracking-[0.3em] text-white/40 uppercase block mt-1 font-medium">
                   Women's Haute Couture • Islamabad & Worldwide
@@ -42,13 +42,13 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
 
             <p className="text-xs text-white/50 leading-relaxed max-w-md">
-              Islamabad's premier women's designer atelier specializing exclusively in heirloom bridal lehengas, royal ghararas, luxury designer lawn & chiffon stitching, bespoke zardozi embroidery, and contemporary Pakistani couture. Handcrafted with bespoke precision and shipped worldwide.
+              Islamabad's premier bespoke designer tailor specializing exclusively in heirloom bridal lehengas, royal ghararas, luxury designer lawn & chiffon stitching, bespoke zardozi embroidery, and contemporary Pakistani couture. Handcrafted with bespoke precision and shipped worldwide.
             </p>
 
             <div className="space-y-2 text-xs text-white/60">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5" />
-                <span>Shop 14-16, Beverly Centre, Blue Area / F-6, Islamabad, Pakistan</span>
+                <span>Shop # 7, Basement Panther Plaza, Near Meezan Bank, F-8 Markaz, Islamabad, Pakistan</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#C5A059] shrink-0" />
@@ -201,7 +201,7 @@ export const Footer: React.FC<FooterProps> = ({
 
         {/* Bottom copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-white/10 text-[11px] text-white/40">
-          <p>© {new Date().getFullYear()} Ijaz Designer & Tailors. All Rights Reserved. Islamabad, Pakistan.</p>
+          <p>© {new Date().getFullYear()} Ijaz Designer Tailor. All Rights Reserved. Islamabad, Pakistan.</p>
           <div className="flex items-center gap-4">
             <button onClick={() => onNavigate('track_order')} className="hover:text-[#C5A059]">Order Tracking</button>
             <span>•</span>

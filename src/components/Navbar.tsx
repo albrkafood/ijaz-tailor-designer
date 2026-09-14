@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center gap-2">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#C5A059] animate-pulse"></span>
           <span className="text-white/80 font-medium truncate max-w-[200px] sm:max-w-none">
-            Bespoke Bridal & Formal Atelier
+            Bespoke Bridal & Designer Tailor
           </span>
         </div>
         <div className="flex items-center gap-3 sm:gap-4 text-[9px] sm:text-[10px]">
@@ -109,14 +109,14 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => navigateTo('home')}
             className="text-left flex flex-col group cursor-pointer"
           >
-            <span className="text-2xl sm:text-3xl font-serif tracking-[0.2em] text-[#C5A059] uppercase group-hover:text-[#D4B475] transition-colors">
+            <span className="text-2xl sm:text-3xl font-serif tracking-[0.2em] text-[#C5A059] uppercase group-hover:text-[#D4B475] transition-colors font-bold">
               IJAZ
             </span>
-            <span className="text-[10px] tracking-[0.35em] uppercase text-white/70 group-hover:text-white transition-colors">
-              WOMEN'S DESIGNER ATELIER
+            <span className="text-[10px] tracking-[0.35em] uppercase text-white/80 group-hover:text-white transition-colors font-medium">
+              DESIGNER TAILOR
             </span>
-            <span className="text-[7.5px] tracking-[0.25em] text-[#C5A059]/70 uppercase">
-              HAUTE COUTURE • BRIDAL • CUSTOM STITCHING
+            <span className="text-[7.5px] tracking-[0.25em] text-[#C5A059]/70 uppercase font-semibold">
+              HAUTE COUTURE • BRIDAL • BESPOKE STITCHING
             </span>
           </button>
 

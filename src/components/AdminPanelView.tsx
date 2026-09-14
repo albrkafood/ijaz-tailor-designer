@@ -298,7 +298,7 @@ export const AdminPanelView: React.FC<AdminPanelViewProps> = ({
                         <a
                           href={generateDirectWhatsAppLink(
                             order.customer.whatsapp || order.customer.phone,
-                            `Hello ${order.customer.name}! This is Master Tailor Ijaz from Islamabad regarding your bespoke order ${order.id} (${order.garment.name}). Current stage: ${order.status.replace(/_/g, ' ')}.`
+                            `Hello ${order.customer.name}! This is Master Tailor Ijaz from Ijaz Designer Tailor Islamabad regarding your bespoke order ${order.id} (${order.garment.name}). Current stage: ${order.status.replace(/_/g, ' ')}.`
                           )}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -506,7 +506,7 @@ export const AdminPanelView: React.FC<AdminPanelViewProps> = ({
               <a
                 href={generateDirectWhatsAppLink(
                   selectedOrder.customer.whatsapp || selectedOrder.customer.phone,
-                  `Hello ${selectedOrder.customer.name}! Updating you regarding your order ${selectedOrder.id} at Ijaz Tailors Islamabad. Status: ${newStatus.replace(/_/g, ' ')}. ${newAdminNote}`
+                  `Hello ${selectedOrder.customer.name}! Updating you regarding your order ${selectedOrder.id} at Ijaz Designer Tailor Islamabad. Status: ${newStatus.replace(/_/g, ' ')}. ${newAdminNote}`
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

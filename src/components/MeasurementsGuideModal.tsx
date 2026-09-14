@@ -74,7 +74,7 @@ export const MeasurementsGuideModal: React.FC<MeasurementsGuideModalProps> = ({
             <span>Need live assistance? Our master couturier can guide you over a 1-on-1 WhatsApp video call.</span>
           </div>
           <a
-            href={`https://wa.me/923005001992?text=${encodeURIComponent("Hello Ijaz Designer & Tailors Islamabad! I need help taking my women's couture measurements for my custom order.")}`}
+            href={`https://wa.me/923005001992?text=${encodeURIComponent("Hello Ijaz Designer Tailor Islamabad! I need help taking my women's couture measurements for my custom order.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 text-[11px] px-3 py-1.5 rounded-sm bg-[#25d366] text-black font-bold uppercase tracking-wider hover:bg-[#20b858] transition-colors flex items-center gap-1.5"

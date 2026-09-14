@@ -62,7 +62,7 @@ export const InternationalOrdersView: React.FC<InternationalOrdersViewProps> = (
             </button>
 
             <a
-              href={`https://wa.me/923005001992?text=${encodeURIComponent('Hello Ijaz Tailors! I am an international client interested in ordering bespoke tailoring from Islamabad.')}`}
+              href={`https://wa.me/923005001992?text=${encodeURIComponent('Hello Ijaz Designer Tailor! I am an international client interested in ordering bespoke tailoring from Islamabad.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3.5 rounded-xl bg-[#25d366]/20 border border-[#25d366]/40 text-[#25d366] hover:bg-[#25d366]/30 font-semibold text-xs uppercase tracking-wider transition-colors flex items-center gap-2"

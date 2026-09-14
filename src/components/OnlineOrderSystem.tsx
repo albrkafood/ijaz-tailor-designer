@@ -275,7 +275,7 @@ export const OnlineOrderSystem: React.FC<OnlineOrderSystemProps> = ({
                   Select Couture Specialty
                 </h3>
                 <p className="text-xs text-white/50 leading-relaxed font-serif italic">
-                  Ijaz Designer Atelier specializes exclusively in women’s luxury haute couture, heirloom bridal wear, designer lawn/chiffon stitching, and custom zardozi embroidery.
+                  Ijaz Designer Tailor specializes exclusively in women’s luxury haute couture, heirloom bridal wear, designer lawn/chiffon stitching, and custom zardozi embroidery.
                 </p>
               </div>
 
@@ -652,7 +652,7 @@ export const OnlineOrderSystem: React.FC<OnlineOrderSystemProps> = ({
                     You can dispatch or drop off your unstitched fabric (e.g. Maria B, Sana Safinaz, Scabal suit cut, or heritage fabric) directly to our Islamabad atelier:
                   </p>
                   <div className="p-3 bg-black/50 rounded-sm text-xs text-[#C5A059] border border-white/10">
-                    <strong className="text-white">Delivery Address:</strong> Ijaz Designer & Tailors, Beverly Centre, Jinnah Avenue, Blue Area, Islamabad, 44000, Pakistan. Phone: +92 300 5001992
+                    <strong className="text-white">Delivery Address:</strong> Ijaz Designer Tailor, Shop # 7, Basement Panther Plaza, Near Meezan Bank, F-8 Markaz, Islamabad, Pakistan. Phone: +92 300 5001992
                   </div>
                   <div>
                     <label className="block text-[11px] uppercase tracking-wider font-bold text-white/80 mb-1">
@@ -1159,7 +1159,7 @@ export const OnlineOrderSystem: React.FC<OnlineOrderSystemProps> = ({
                     </div>
                     <div>
                       <h4 className="text-xs font-serif font-bold text-white uppercase tracking-wider">Cash / Pay at Store</h4>
-                      <span className="text-[10px] text-white/40">Beverly Centre, Blue Area, Islamabad</span>
+                      <span className="text-[10px] text-white/40">Panther Plaza, F-8 Markaz, Islamabad</span>
                     </div>
                   </div>
                   <p className="text-[11px] text-white/50 mt-2">
